@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7 App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div id="app">
+    <div class="view view-main view-init">
+
+        <section id="panel-menu" class="panel panel-left panel-cover">
+
+            <div class="block perfil">
+
+                <div class="row">
+                    <article class="col-30">
+                        <img src="img/34788663_2151513034864328_2812330244524998656_n.jpg" alt="" class="img-fluid">
+                    </article>
+                    <article class="col-70">
+                        <h6>Alberto Martinez</h6>
+						<p>Estudiante de Animación</p>
+						
+                    </article>
+                </div>
+
+            </div>
+
+
+            <div id="menu-list" class="list media-list">
+              <ul>
+				<li>
+                  <a href="/home/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">home</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Inicio</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/listado/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">checkroom</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Ropa</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content panel-close">
+                      <div class="item-media">
+                        <span class="material-icons">podiatry</span>
+                      </div>
+                    <div class="item-inner">
+                      <div class="item-title">Zapatos</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content">
+                    <div class="item-media">
+                        <span class="material-icons">eyeglasses</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Accesorios</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/perfil/" class="item-link item-content">
+                    <div class="item-media">
+                        <span class="material-icons">person</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Perfil</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content">
+                    <div class="item-media">
+                        <span class="material-icons">settings</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Configuración</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content">
+                    <div class="item-media">
+                        <span class="material-icons">info</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Acerca de..</div>
+                    </div>
+                  </a>
+                </li>
+            </ul>
+            </div>
+
+
+        </section>
+
+
+
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="link"><img src="img/peri2.png" alt="logo" width="50px"></a>
+                </div>
+                <div class="title">Pericles boutique</div>
+                <div class="right">
+                    <a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+                </div>
+            </div>
+          </nav>
+
+          <section class="page-content">
+			  
+			  <div class="swiper-container swiper-init feature" data-speed="400" data-space-between="50" data-slides-per-view="3">
+                	<div class="swiper-wrapper">
+
+						<div class="swiper-slide">
+						
+							
+								<div class=" selected">
+									<article class="col-60 nombre">
+										Featured
+									</article>
+								</div>
+							
+						
+						</div>
+						
+						<div class="swiper-slide">
+						
+							<div class="row">
+								<article class="col-60 nombre">
+									New
+								</article>
+							</div>
+						
+						</div>
+						
+						<div class="swiper-slide">
+							
+							<div class="row">
+								<article class="col-60 nombre">
+									Collection
+								</article>
+							</div>
+						
+						</div>
+						
+						<div class="swiper-slide">
+							
+							<div class="row">
+								
+								<article class="col-60 nombre">
+									Promo
+								</article>
+							</div>
+						
+						</div>
+						
+					</div>
+				</div>
+
+            <section id="carousel" class="block">
+
+            <div class="swiper-container swiper-init" data-speed="400" data-space-between="10" data-slides-per-view="1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/ropa-elegante.jpg" alt="" width="500px" height="300px">
+                    </div>
+ 
+                </div>
+            </div>
+
+          </section>
+
+            <h2 class="block-title">Categorias</h2>
+
+            <section id="categories" class="block">
+				
+				<div class="swiper-container swiper-init" data-speed="400" data-space-between="50" data-slides-per-view="3">
+                	<div class="swiper-wrapper">
+
+						<div class="swiper-slide">
+						<a href="/listado/" class="link">
+							<div class="btn-categorie">
+								<div class="row">
+									<article class="col-40">
+										<img src="img/camisa-naranja.png" alt="" class="img-fluid">
+									</article>
+									<article class="col-60 nombre">
+										Ropa
+									</article>
+								</div>
+							</div>
+						</a>
+						</div>
+						
+						<div class="swiper-slide">
+						<a href="#" class="link">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/Zapatos.png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									Zapatos
+								</article>
+							</div>
+						</div>
+						</a>
+						</div>
+						
+						<div class="swiper-slide">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/lentes.png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									Style
+								</article>
+							</div>
+						</div>
+						</div>
+						
+						<div class="swiper-slide">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/pepsi.png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									otros
+								</article>
+							</div>
+						</div>
+						</div>
+						
+					</div>
+				</div>
+
+            </section>
+
+            <h2 class="block-title">Best Sellers</h2>
+
+            <section class="card-products block">
+				
+				 <div class="swiper-container swiper-init" data-speed="400" data-space-between="10" data-slides-per-view="1">
+                <div class="swiper-wrapper">
+					<div class="swiper-slide">
+                        <article class="col">
+                        <div class="card">
+							<a href="/producto/" class="link">
+                            	<img src="img/camisa-naranja.png" alt="" class="img-fluid">
+							</a>
+                            <h3>Camisa Naranja</h3>
+                            <p>Camisa Naranja para mujer</p>
+                            <h4>$ 4.99</h4>
+                        </div>
+                    </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="col">
+                        <div class="card">
+							<a href="#" class="link">
+                            	<img src="img/camisa-azul.png" alt="" class="img-fluid">
+							</a>
+                            <h3>Camisa Azul</h3>
+                            <p>Camisa Azul de algodon egipcio, para hombre</p>
+                            <h4>$ 3.99</h4>
+                        </div>
+                    </article>
+                    </div>
+					
+ 
+                </div>
+            </div>
+
+            </section>
+
+        </section>
+
+    	</section>
+
+    </div>
+</div>
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
